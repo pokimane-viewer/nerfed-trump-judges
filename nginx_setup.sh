@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+sudo apt install python3-venv
+
 sudo apt update
 sudo apt install -y nginx
 
